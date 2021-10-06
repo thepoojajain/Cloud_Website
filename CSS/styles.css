@@ -245,3 +245,24 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* Input */
+.input {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 1.5rem 3.5rem;
+  outline: 0;
+  color: var(--color-heading);
+  font-size: 2rem;
+}
+
+::placeholder {
+  color: cdcbb7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
