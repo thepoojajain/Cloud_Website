@@ -14,38 +14,31 @@
       rel="stylesheet"
     />
   </head>
-  <body style="padding: 5rem;">
-    <div class="card testimonial">
-      <div class="grid grid--1x2">
-        <div class="testimonial__image">
-          <img src="Images/testimonial.jpg" alt="" />
-          <span class="icon-container icon-container-accent">
-            <svg class="icon icon--white icon--small">
-              <use xlink:href="Images/sprite.svg#quotes"></use>
-            </svg>
-          </span>
-        </div>
-        <blockquote class="quote">
-          <p class="quote__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-            exercitationem.
-          </p>
-          <footer>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary quote__line">
-                  <use xlink:href="Images/sprite.svg#line"></use>
-                </svg>
-              </span>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title quote__author">John Smith</h3>
-                <p class="quote__organization">ABC Company</p>
-              </div>
-            </div>
-          </footer>
-        </blockquote>
+  <body>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item</h2>
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="Images/sprite.svg#snap"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod eum,
+        suscipit,
       </div>
     </div>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item</h2>
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="Images/sprite.svg#snap"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod eum,
+        suscipit,
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
