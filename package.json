@@ -4,7 +4,9 @@
   "description": "Find all the details on the website for a cloud company",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "serve:prod": "parcel build index.html",
+    "serve:dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,6 @@
   },
   "homepage": "https://github.com/thepoojajain/MoshifyWebsite#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "1.12.3"
   }
 }
