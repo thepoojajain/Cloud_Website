@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "serve:prod": "parcel build index.html",
-    "serve:dev": "parcel index.html"
+    "build:prod": "parcel build index.html",
+    "build:dev": "parcel index.html"
   },
   "repository": {
     "type": "git",
